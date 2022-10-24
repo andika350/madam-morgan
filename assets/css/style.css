@@ -1,0 +1,31 @@
+body {
+  font-family: 'Urbanist', sans-serif;
+  height: 2000px;
+  background-image: url(/assets/img/background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+section {
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+#logo-nav {
+  width: 100%;
+  max-width: 200px;
+}
+
+.explore-btn {
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.explore-btn:hover {
+  opacity: 0.7;
+}
+
+.explore-btn:active {
+  transform: translateY(3px);
+}
