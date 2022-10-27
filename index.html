@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous" />
+
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="icon" href="assets/img/title-logo.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -40,7 +41,7 @@
             class="collapse navbar-collapse fs-5 justify-content-end"
             id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" aria-current="page" href="#">Home</a>
               <a class="nav-link" href="#">Fragrances</a>
               <a class="nav-link" href="#">About Us</a>
               <a class="nav-link" href="#">Order</a>
@@ -51,27 +52,83 @@
     </section>
 
     <!-- jumobtron images -->
-    <section id="jumbotron" class="jumbotron-fluid  text-center"></section>
-      <div class="container-fluid py-5 bg-light text-center">
-        <h1 class="display-5 fw-bold">Time to Relax </h1>
-        <p class="fs-5">
-          Maksimalkan waktu santaimu dengan lilin aroma terapi, jadikan kami teman waktu santai, romantis, dan fokusmu.
-          Bermacam aroma untuk berbagai kegiatan, kurang cocok? Kamu juga bisa custom lilin sesuai keinginanmu :)
-        </p>
-        <a href=""><button class="explore-btn" type="button">
-          Explore all Fragrances
-        </button></a>
-    </div>
+    <section
+      id="jumbotron"
+      class="jumbotron-fluid background-image text-center">
+      <div class="container-fluid row justify-content-md-center py-5">
+        <div class="col-md-7">
+          <h1 class="display-3 fw-bold text-center">Time to Relax</h1>
+          <p class="jumbo-text text-center">
+            Maksimalkan waktu santaimu dengan lilin aroma terapi, jadikan kami
+            teman waktu santai, romantis, dan fokusmu. Bermacam aroma untuk
+            berbagai kegiatan, kurang cocok? Kamu juga bisa custom lilin sesuai
+            keinginanmu :)
+          </p>
+        </div>
+      </div>
+    </section>
+
     <!-- visi misi logo -->
-    <section id="hero"></section>
+    <section id="hero">
+      <div class="container-fluid row justify-content-md-center text-center">
+        <div class="col-sm-9">
+          <iframe
+            width="100%"
+            max-width="600"
+            height="400"
+            src="https://www.youtube.com/embed/9n9B7th9SdM"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>  
 
     <!-- produk -->
-    <section id="product"></section>
+    <section id="product">
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <div class="card">
+              <img src="assets/img/candle.jpg" alt="candle1" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">É C L A I R</h5>
+                <p class="card-text">Warm vanilla and fresh cooked eclair, warm and sweet as sweet as you my dear.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card">
+              <img src="assets/img/candle1.jpg" alt="candle2" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">R E L I É F</h5>
+                <p class="card-text">Eucalyptus, orchid flower a bit of breeze, close your eues, deep breath feel the stress relief away.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card">
+              <img src="assets/img/candle2.jpg" alt="candle3" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">M A C H I A T Ó</h5>
+                <p class="card-text">The espresso in poured on top of the milk. Waken you up and boosting up your all day mood.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- kontak -->
     <section id="kontak"></section>
 
     <!-- footer -->
     <footer></footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"></script>
   </body>
 </html>
