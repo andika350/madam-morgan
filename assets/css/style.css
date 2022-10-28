@@ -1,8 +1,6 @@
 body {
   background-color: antiquewhite;
   font-family: 'Urbanist', sans-serif;
-  height: 2000px;
-  
 }
 
 #jumbotron p, h1 {
@@ -41,4 +39,8 @@ section {
   height: 100%;
  max-width: 2931px;
  max-height: 3906px;
+}
+
+#about-us {
+  margin-bottom: 100px;
 }
