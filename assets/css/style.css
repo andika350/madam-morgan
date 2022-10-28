@@ -44,3 +44,13 @@ section {
 #about-us {
   margin-bottom: 100px;
 }
+
+#chat:hover {
+  background-color: rgb(138, 138, 138);
+  color: rgb(255, 255, 255);
+}
+
+#chat {
+  background-color: black;
+  color: white;
+}
