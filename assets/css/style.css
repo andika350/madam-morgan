@@ -42,11 +42,14 @@ section {
 }
 
 
-
 #about-us {
   margin-bottom: 100px;
   line-height: 2em;
   text-align: justify;
+}
+
+.about-img {
+  max-width:450px;
 }
 
 #chat:hover {
