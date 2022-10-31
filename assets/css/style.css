@@ -41,8 +41,12 @@ section {
  max-height: 3906px;
 }
 
+
+
 #about-us {
   margin-bottom: 100px;
+  line-height: 2em;
+  text-align: justify;
 }
 
 #chat:hover {
@@ -53,4 +57,9 @@ section {
 #chat {
   background-color: black;
   color: white;
+}
+
+#order img {
+  max-width: 100px;
+  margin: 15px;
 }
